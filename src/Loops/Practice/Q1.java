@@ -2,7 +2,7 @@ package Loops.Practice;
 
 import java.util.Scanner;
 
-// Q. Find the largest of three input numbers
+// Q. Find the largest from three input numbers
 public class Q1 {
     public static void main(String[] args) {
 

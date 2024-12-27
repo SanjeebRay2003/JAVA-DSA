@@ -2,20 +2,20 @@ package Loops.Practice;
 
 import java.util.Scanner;
 
-// Q. show the character is Lowercase or Upper case
+// Q. show the input character is lowercase or UPPERCASE
 public class Q2 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter the character");
-        char ch = input.next().trim().charAt(5);
-        System.out.println(ch);
+        System.out.println("Enter the character :");
+        char ch = input.next().trim().charAt(2);
+        System.out.print(ch);
 
         if (ch >= 'a' && ch <= 'z'){
-            System.out.println("Lowercase");
+            System.out.println(" -> lowercase");
         }
         else {
-            System.out.println("Uppercase");
+            System.out.println(" -> UPPERCASE");
         }
 
 
