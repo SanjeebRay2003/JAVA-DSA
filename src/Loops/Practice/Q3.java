@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-// Q. Show the n'th fibonacchi number
+// Q. Show the n'th fibonacci number
 public class Q3 {
     public static void main(String[] args) {
 
