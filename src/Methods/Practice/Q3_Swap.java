@@ -2,8 +2,8 @@ package Methods.Practice;
 
 import java.util.Scanner;
 
-// Q. Swapping two input numbers
-public class Swap {
+// Q. Swap two input numbers
+public class Q3_Swap {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("a = ");
