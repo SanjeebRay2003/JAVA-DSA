@@ -2,6 +2,7 @@ package Methods.Practice;
 
 import java.util.Scanner;
 
+// Q. Swapping two input numbers
 public class Swap {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -12,6 +13,7 @@ public class Swap {
 
 //        System.out.println(a +" "+ b);
         swap(a,b);
+        System.out.println(a);
 
 
     }
