@@ -8,6 +8,7 @@ public class String_Array {
         Scanner input = new Scanner(System.in);
 
         String[] name = new  String[5];
+        
         for (int i = 0;i< name.length;i++){
             name[i] = input.next();
         }
