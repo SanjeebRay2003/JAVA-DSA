@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class NO_column {
     public static void main(String[] args) {
-        int[][] array = {
+        int[][] array = { // row is mandatory and column is not mandatory here
                 {1,8,6,78},
                 {8,6,9},
                 {8},
