@@ -12,6 +12,7 @@ public class Q1 {
 
     }
 
+    // Return the index of targeted element
     static int linearSearch(int[] arr,int target){
         if (arr.length == 0){
             return -1;
@@ -27,6 +28,7 @@ public class Q1 {
         return -1;
     }
 
+    // Return Boolean value
     static boolean presentOrNot(int[] arr,int target){
         if (arr.length == 0){
             return false;
