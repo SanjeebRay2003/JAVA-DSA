@@ -1,5 +1,6 @@
 package Searching.Practice;
 
+// Q. search element of array in a range
 public class Q3 {
     public static void main(String[] args) {
 
