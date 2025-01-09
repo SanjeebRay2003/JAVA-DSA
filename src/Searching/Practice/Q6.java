@@ -14,7 +14,6 @@ public class Q6 {
         int target = 78;
         int[] newArr = search(marks,78);
         System.out.println(Arrays.toString(newArr));
-        System.out.println(maxMarks(marks));
     }
 
     static int[] search(int[][] marks,int target){
@@ -28,16 +27,5 @@ public class Q6 {
         return new int[]{-1,-1};
     }
 
-    // Returns maximum value of element
-    static int maxMarks(int[][] marks){
-        int max = Integer.MIN_VALUE;
-        for (int i = 0;i<marks.length;i++){
-            for (int j =0;j<marks[i].length;j++){
-                if (marks[i][j] > max){
-                    max = marks[i][j];
-                }
-            }
-        }
-        return max;
-    }
+
 }
