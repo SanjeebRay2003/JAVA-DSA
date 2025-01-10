@@ -1,4 +1,4 @@
-package Searching.Practice;
+package Searching.Practice.Linear_Search;
 
 // Q. find maximum and minimum value of element in 2D array
 public class Q7 {

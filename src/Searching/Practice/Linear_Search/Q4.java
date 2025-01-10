@@ -1,4 +1,4 @@
-package Searching.Practice;
+package Searching.Practice.Linear_Search;
 
 // Q. search the smallest element of array
 public class Q4 {

@@ -1,4 +1,4 @@
-package Searching.Practice;
+package Searching.Practice.Linear_Search;
 
 // Q. search element of array in a range
 public class Q3 {

@@ -1,4 +1,4 @@
-package Searching.Practice;
+package Searching.Practice.Linear_Search;
 
 // Q. search the index of target element in the array
 public class Q1 {

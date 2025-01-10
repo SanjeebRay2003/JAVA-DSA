@@ -1,4 +1,4 @@
-package Searching.Practice;
+package Searching.Practice.Linear_Search;
 
 // Q. find elements with even number of digits (leetcode Q. 1295)
 public class Q8 {

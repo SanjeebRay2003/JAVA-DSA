@@ -1,4 +1,4 @@
-package Searching.Practice;
+package Searching.Practice.Linear_Search;
 
 public class Q9 {
     public static void main(String[] args) {
