@@ -4,27 +4,26 @@ import java.util.Arrays;
 
 public class Q7 {
     public static void main(String[] args) {
-        int[] arr = {4,5,6,7,4,5,2,3,4,5,2,4};
-        int[] newArr = twoSum(arr,9);
-        System.out.println(Arrays.toString(newArr));
+
+        int[] nums = {2, 7, 11, 15,3,6};
+        System.out.println(Arrays.toString(twoSum(nums,9)));
     }
 
-    static int[] twoSum(int[] arr,int target) {
+        static int[] twoSum(int[] nums, int target) {
 
-        int[] Y = null;
-        int[] X = null;
-        int[] Z = null;
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = arr.length-1; j >= 0; j--) {
-                if (arr[i] + arr[j] == target) {
-                    X = new int[]{arr[i], arr[j]};
+        int start =0;
+        int end = nums.length-1;
+        int[] X = {};
+
+            for(int i = start;i<nums.length;i++){
+                for(int j= end;j>=start;j--){
+                    if(nums[i] + nums[j] == target){
+                       X = new int[]{nums[i],nums[j]};
+                    }
                 }
+                return X;
             }
+            return new int[]{};
         }
-        System.out.println(Arrays.toString(X));
-        System.out.println(Arrays.toString(Y));
-
-
-        return X;
     }
-}
+
