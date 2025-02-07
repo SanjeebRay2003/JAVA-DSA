@@ -2,8 +2,8 @@ package Searching.Practice.Binary_Search.Binary_Search_2D;
 
 import java.util.Arrays;
 
-// search element in 2D array using binary search
-public class search {
+// search element in 2D array using Linear search
+public class Linear {
     public static void main(String[] args) {
 
         int[][] arr = {
